@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.login-page {
+    display: flex; 
+    height: 100%;
+    width: 100%; 
+}
+
+.login-hero-title{
+    position: absolute;
+    left: 21%;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    top: 10%;
+    color: #FFFFFF;
+}
+
+iframe{
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    border: none;
+    width: 516px;
+    height: 516px;
+}
+
+.login-image {
+    width: 62.98%;
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.login-container {
+    width: 37.02%;
+    background: linear-gradient(360deg, #1B2A2D 0%, #588993 100%);   
+    display: flex;
+    flex-direction: column;
+}
+
+.login-title{
+    margin-bottom: 20px;
+    padding-left: 50px;
+    padding-top: 150px;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+
+}
+
+.login-form{
+    text-align: left;
+    padding: 50px;
+    padding-left: 50px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#email, #password {
+    /*width: 100%;
+    padding: 10px;*/
+    margin-bottom: 20px;
+    padding: 14px;
+    gap: 10px;
+    width: 383px;
+    /*height: 48px;*/
+    border: none;
+    border-radius: 8px;
+}
+
+
+.email-label, .password-label{
+    width: 413px;
+    height: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.login-btn{
+    padding: 14px;
+    width: 413px;
+    height: 48px;
+    background: linear-gradient(180deg, #00BFFF 0%, #009ACD 100%);
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.register-link{
+    /* Don’t have an account? Create one here */
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+    color: #91E4FF;
+    padding: 30px;
+}
+
+@media screen and (max-width: 850px) {
+
+    .login-form{
+        padding: 20px;
+    }
+
+    .login-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .login-hero-title {
+        left: 10%;
+        top: 5%;
+        font-size: 30px;
+    }
+
+    iframe {
+        display: none;
+    }
+
+    .login-container {
+        position: absolute;
+        width: 322px;
+        height: 537px;
+        top: 10%;
+        left: 10%;
+    }
+
+    .login-title {
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+
+    #email, #password {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .login-btn{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .register-link{
+        /* Don’t have an account? Create one here */
+
+        /*width: 262px;*/
+        height: 15px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 15px;
+        padding-left: 0;
+
+    }
+}

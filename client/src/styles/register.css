@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.register-page {
+    display: flex; 
+    height: 100%;
+    width: 100%; 
+}
+
+.register-hero-title{
+    position: absolute;
+    left: 21%;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    top: 10%;
+    color: #FFFFFF;
+}
+
+iframe{
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    border: none;
+    width: 516px;
+    height: 516px;
+}
+
+.register-image {
+    width: 62.98%;
+    height: 100%; 
+    object-fit: cover; 
+}
+
+.register-container {
+    width: 37.02%;
+    background: linear-gradient(360deg, #1B2A2D 0%, #588993 100%);   
+    display: flex;
+    flex-direction: column;
+}
+
+.register-title{
+    margin-bottom: 0px;
+    padding-left: 50px;
+    padding-top: 100px;
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 0px;
+    color: #FFFFFF;
+
+}
+
+.register-form{
+    text-align: left;
+    padding: 50px;
+    padding-left: 50px;
+}
+
+#register-email, #register-password, #register-name, #register-referral {
+    /*width: 100%;
+    padding: 10px;*/
+    margin-bottom: 20px;
+    padding: 14px;
+    gap: 10px;
+    width: 383px;
+    /*height: 48px;*/
+    border: none;
+    border-radius: 8px;
+}
+
+
+.register-email-label, .register-password-label, .register-name-label, .register-referral-label {
+    width: 413px;
+    height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.register-btn{
+    padding: 14px;
+    width: 413px;
+    height: 48px;
+    background: linear-gradient(180deg, #00BFFF 0%, #009ACD 100%);
+    border-radius: 8px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.login-link{
+    /* Don’t have an account? Create one here */
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+    color: #91E4FF;
+    padding: 30px;
+}
+
+@media screen and (max-width: 850px) {
+
+    .register-form{
+        padding: 20px;
+    }
+
+    .register-image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .register-hero-title {
+        left: 10%;
+        top: 5%;
+        font-size: 30px;
+    }
+
+    iframe {
+        display: none;
+    }
+
+    .register-container {
+        position: absolute;
+        width: 322px;
+        height: 537px;
+        top: 10%;
+        left: 10%;
+    }
+
+    .register-title {
+        padding-top: 50px;
+        padding-left: 30px;
+    }
+
+    #register-email, #register-password, #register-name, #register-referral {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .register-btn{
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .login-link{
+        /* Don’t have an account? Create one here */
+
+        /*width: 262px;*/
+        height: 15px;
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 15px;
+        padding-left: 0;
+
+    }
+}

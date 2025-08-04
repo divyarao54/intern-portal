@@ -1,0 +1,21 @@
+{
+  "name": "intern-portal",
+  "version": "1.0.0",
+  "description": "Intern Portal - Full Stack Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd server && npm start",
+    "dev": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "build": "cd client && npm run build",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["intern", "portal", "react", "nodejs", "mongodb"],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "your-repository-url"
+  }
+}

@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.dashboard-image{
+    width: 100%;
+    height: 130vh;
+}
+
+.dashboard-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    position: absolute;
+    /*width: 1220px;
+    height: 638px;*/
+    left: calc(50% - 680px);
+    top: calc(50% - 638px/2);
+    background: linear-gradient(360deg, #1B2A2D 0%, #588993 100%);
+    border-radius: 8px;
+}
+
+.dashboard-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.dashboard-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 33px;
+}
+
+.dashboard-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+    padding-bottom: 0;
+    gap: 10px;
+    width: 410px;
+    height: 272px;
+    background: linear-gradient(360deg, #3D6B74 0%, #8FB4BB 100%);
+    border-radius: 8px;
+}
+
+.dashboard-card-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.name-icon, .referral-icon, .donation-icon{
+    width: 150px;
+    height: 150px;
+}
+
+.dashboard-card-value{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.dashboard-btn{
+    padding: 14px;
+    padding-top: 5px;
+    gap: 10px;
+    width: fit-content;
+    height: 48px;
+    background: linear-gradient(180deg, #00BFFF 0%, #009ACD 100%);
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.btn-icon{
+    width: 20px;
+    height: 20px;
+    padding-top: 6px;
+}
+
+.reward-section{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 30px;
+    /*width: 1270px;
+    height: 386px;*/
+}
+
+.reward-title{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.reward-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+}
+
+.reward-card-unlocked{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    gap: 30px;
+    width: 224.4px;
+    height: 273px;
+    background: linear-gradient(180deg, #FFFFFF 0%, #FFF2BB 100%);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+.reward-card-locked{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    gap: 10px;
+    width: 226px;
+    height: 273px;
+    background: linear-gradient(360deg, #3D6B74 0%, #8FB4BB 100%);
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+.reward-card-title{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat' sans-serif;
+    font-size: 16px;
+}
+
+.reward-card-title-1{
+    color: #FFFFFF;
+}
+
+.reward-card-title-2{
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.reward-img, .reward-img-unlocked{
+    width: 150px;
+    height: 150px;
+}
+
+.reward-img-unlocked:hover{
+    display: none;
+}
+
+.yellow-diamond{
+    width: 150px;
+}
+
+.reward-donation{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1B2A2D;
+}
+
+.reward-donations-locked{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
