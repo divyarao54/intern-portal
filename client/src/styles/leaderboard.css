@@ -108,3 +108,30 @@ color: #FFFFFF;
     color: #FFFFFF;
     text-decoration: none;
 }
+
+@media screen and (max-width: 1200px) {
+    .leaderboard-container{
+        left: 0px;
+        width: auto;
+    }
+    .leaderboard-img{
+        height: 200vh;
+    }
+
+    .leaderboard-headings{
+        width: 100%;
+    }
+
+    .leaderboard-items{
+        width: 100%;
+    }
+
+    .leaderboard-item{
+        width: 100%;
+    }
+    .leaderboard-heading-item{
+        width: auto;
+    }
+    
+
+}

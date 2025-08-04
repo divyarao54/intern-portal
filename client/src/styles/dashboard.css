@@ -207,3 +207,19 @@
     line-height: 15px;
     color: #FFFFFF;
 }
+
+@media screen and (max-width: 1200px) {
+    .dashboard-cards{
+        flex-direction: column;
+    }
+
+    .reward-cards{
+        flex-direction: column;
+    }
+    .dashboard-container{
+        left: 0px;
+    }
+    .dashboard-image{
+        height: 400vh;
+    }
+}
