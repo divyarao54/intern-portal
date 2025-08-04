@@ -10,6 +10,7 @@ import BeginnerReward from '../assets/beginner-reward.png';
 import LockedReward from '../assets/locked-reward.png';
 import YellowDiamond from '../assets/yellow-diamond.gif'
 import '../styles/dashboard.css';
+import config from '../config';
 
 
 const Dashboard = () => {
@@ -19,7 +20,7 @@ const Dashboard = () => {
     useEffect(() => {
     const fetchIntern = async () => {
         try {
-            const res = await axios.get(`http://localhost:5000/api/intern/${referralCode}`);
+            const res = await axios.get(`${config.API_URL}/api/intern/${referralCode}`);
             setIntern(res.data);
         } catch (err) {
             console.error('Error fetching intern:', err.message);

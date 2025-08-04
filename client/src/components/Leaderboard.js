@@ -4,6 +4,7 @@ import axios from 'axios';
 import "../styles/leaderboard.css"
 import LeaderboardImage from "../assets/dashboard-img.png";
 import DashboardIcon from "../assets/dashboard-icon.png";
+import config from '../config';
 
 const Leaderboard = () => {
     const { referralCode } = useParams();
@@ -12,7 +13,7 @@ const Leaderboard = () => {
     useEffect(() => {
     const fetchIntern = async () => {
         try {
-            const res = await axios.get(`http://localhost:5000/api/intern/${referralCode}`);
+            const res = await axios.get(`${config.API_URL}/api/intern/${referralCode}`);
             setIntern(res.data);
         } catch (err) {
             console.error('Error fetching intern:', err.message);
